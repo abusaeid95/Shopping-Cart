@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <main class="container">
+        <div class="product">
+            <div><img src="images/apple-iphone-14-pro-max-.jpg" alt=""></div>
+            <div class="cart">
+                <h3><i onclick="phoneQuantityPlus()" class="fa-solid fa-plus"></i></h3>
+                <h3 id="phone-quantity">0</h3>
+                <h3><i onclick="phoneQuantityLess()" class="fa-solid fa-minus"></i></h3>
+            </div>
+            <div class="price">
+                <h3>$ <span id="phone-price">0</span></h3>
+                <h3><i class="fa-sharp fa-solid fa-xmark"></i></h3>
+            </div>
+        </div>
+        <div class="product">
+            <div><img class="img2" src="images/MPU73_AV3.jpeg" alt=""></div>
+            <div class="cart">
+                <h3><i onclick="caseQuantityPlus()" class="fa-solid fa-plus"></i></h3>
+                <h3 id="case-quantity">0</h3>
+                <h3><i onclick="caseQuantityLess()" class="fa-solid fa-minus"></i></h3>
+            </div>
+            <div class="price">
+                <h3>$ <span id="case-price">0</span></h3>
+                <h3><i class="fa-sharp fa-solid fa-xmark"></i></h3>
+            </div>
+        </div>
+        <div>
+            <div class="total-calculation">
+                <h2>SubTotal</h2>
+                <h2 id="sub-total">0</h2>
+            </div>
+            <div class="total-calculation">
+                <h2>Tax</h2>
+                <h2><span id="tax">0</span> <p style="display: inline;"> (5%VAT)</p> </h2>
+            </div>
+            <div class="total-calculation">
+                <h2>Total</h2>
+                <h2 id="total">0</h2>
+            </div>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/fed3d6d842.js" crossorigin="anonymous"></script>
+    <script src="cart.js"></script>
+</body>
+</html>

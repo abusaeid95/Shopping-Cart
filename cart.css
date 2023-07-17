@@ -1,0 +1,31 @@
+.container{
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.product{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.img2{
+    height: 20rem;
+}
+.cart{
+    display: flex;
+    margin-left: 4rem;
+}
+.cart h3{
+    margin-left: 50px;
+    cursor: pointer;
+}
+.price{
+    margin-left: 5rem;
+}
+.total-calculation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
